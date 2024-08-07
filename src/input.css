@@ -29,7 +29,7 @@
     @apply flex flex-col justify-center items-center
 }
 
-/* Coustom */
+/* Custom */
 .section_title{
     @apply text-[#0F2137] text-2xl font-semibold text-center pb-5
 }
@@ -42,4 +42,15 @@
 }
 .support_2{
     @apply w-[150px] md:w-[275px] absolute bottom-[20%] right-0 md:bottom-[20%] md:right-[0%] lg:bottom-[25%] md:bottom-[20%] md:right-[0%] lg:right-[10%] text-[14px] md:text-xl text-[#FABF62] p-2 md:p-5 bg-white rounded-tl-3xl rounded-tr-3xl rounded-br-3xl shadow
+}
+
+/* Footer */
+.footer_content{
+    @apply flex flex-col md:gap-1 mx-5 lg:mx-auto mb-5 lg:mb-0
+}
+.footer_title{
+    @apply text-[#0F2137] font-bold my-5
+}
+.footer_item{
+    @apply text-[#0F2137] font-semibold opacity-80 text-sm md:text-[16px]
 }
