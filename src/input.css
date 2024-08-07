@@ -28,3 +28,18 @@
 .project{
     @apply flex flex-col justify-center items-center
 }
+
+/* Coustom */
+.section_title{
+    @apply text-[#0F2137] text-2xl font-semibold text-center pb-5
+}
+.section_description{
+    @apply text-[#02073E] leading-6 text-center
+}
+
+.support_1{
+    @apply w-[150px] md:w-[275px] absolute top-[8%] md:top-[10%] lg:top-[25%] md:top-[10%] lg:left-[10%] text-[14px] md:text-xl text-white p-2 md:p-5 bg-[#FABF62] rounded-tl-3xl rounded-tr-3xl rounded-bl-3xl shadow
+}
+.support_2{
+    @apply w-[150px] md:w-[275px] absolute bottom-[20%] right-0 md:bottom-[20%] md:right-[0%] lg:bottom-[25%] md:bottom-[20%] md:right-[0%] lg:right-[10%] text-[14px] md:text-xl text-[#FABF62] p-2 md:p-5 bg-white rounded-tl-3xl rounded-tr-3xl rounded-br-3xl shadow
+}
