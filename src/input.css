@@ -5,3 +5,26 @@
 .primary{
     background-color: #0092E4;
 }
+
+/* Career Section Start */
+.card_box{
+    @apply bg-white rounded-md p-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 my-10
+}
+.card{
+    @apply text-center md:p-8
+}
+.description{
+    @apply text-[#343D48] leading-[30px] py-4
+}
+.title{
+    @apply text-[#0F2137] font-bold
+}
+.btn{
+    @apply text-[#0092E4] font-semibold
+}
+.project_box{
+    @apply grid grid-cols-2 lg:grid-cols-4 md:px-24 gap-y-4 gap-x-2
+}
+.project{
+    @apply flex flex-col justify-center items-center
+}
